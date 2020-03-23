@@ -22,6 +22,6 @@ int main()
  total=qa+aa+mid+finals;
    cout<<"Your total numbers are"<<total;
 
-
+system("pause");
 
 }
