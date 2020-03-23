@@ -1,4 +1,4 @@
-﻿Write a program that calculate the total number of semester including quiz, assignment,mid,finals.
+﻿//Write a program that calculate the total number of semester including quiz, assignment,mid,finals//
 
 
 #include <iostream>
