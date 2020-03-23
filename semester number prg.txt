@@ -1,0 +1,27 @@
+﻿Write a program that calculate the total number of semester including quiz, assignment,mid,finals.
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+        float q1,q2,q3,q4,qa,a1,a2,a3,a4,aa,mid,finals,total;
+        cout << "Enter the numbers of quiz sequentially!";
+   cin >>q1 >>q2 >>q3 >>q4;
+   qa= (q1+q2+q3+q4) /4;
+   cout <<qa;
+   
+   cout<<"Enter numbers of assignment sequentially";
+   cin>>a1>>a2>>a3>>a4; 
+   aa=(a1+a2+a3+a4) /4;
+   cout<<aa ;
+   cout<<"now enter your mid and final marks";
+   cin>>mid>>finals;
+
+ total=qa+aa+mid+finals;
+   cout<<"Your total numbers are"<<total;
+
+
+
+}
